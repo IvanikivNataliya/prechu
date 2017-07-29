@@ -1,0 +1,26 @@
+/* font-family: "SegoeWP Regular"; */
+@font-face {
+	font-family: "SegoeWP Regular";
+	url("../fonts/segoe-wp.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* font-family: "SegoeWPN Light"; */
+@font-face {
+	font-family: "SegoeWPN Light";
+	url("../fonts/SegoeWPN.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* font-family: "SegoeWP Light"; */
+@font-face {
+	font-family: "SegoeWP Light";
+	url("../fonts/segoe-wp-light.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+

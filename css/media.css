@@ -1,0 +1,74 @@
+/* Large Devices, Wide Screens */
+@media (min-width: 1200px) {
+}
+
+/* Medium Devices, Desktops */
+@media (min-width: 979px) and (max-width : 1200px) {
+    .navbar-brand .brand-text{line-height: 44px;}
+    .slider_content h1 {font-size: 35px;}
+    .slider_content p {font-size: 25px;}
+
+/* Small Devices, Tablets */
+@media (min-width: 768px) and (max-width: 979px) {
+    .navbar-brand .brand-text{font-size: 40px; line-height: 44px;}
+    .slider_content {margin: 7% 0 0 50%;}
+    .slider_content h1 {font-size: 30px;}
+    .slider_content p {font-size: 20px;}
+    .button{margin-left: 0;}
+    .sc_item {text-align: left; margin-top: 30px; padding: 0 18% 35px; border-bottom: 1px solid #ccc;}
+    .sc_item a img{float:left; margin-right: 25px; margin-left: 35px; height: 135px; width: 135px;}
+    .sc_item h3{padding-top: 35px;}
+    .sc_bt_header{padding-left: 0;}
+    .sc_bt_header h2{text-align: center;}
+    .sc_bt_content img{height: 190px; width: 270px;}
+    .sc_bt_img{text-align: center;}
+    .sc_content{padding-left: 35px;}
+    .sc_bottom {margin-bottom: -30px;}
+    footer{padding: 30px 0 30px;}
+    #forma{width: 40%; margin: 10% 30%;}
+}
+
+/* Extra Small Devices, Phones */
+@media (min-width: 481px) and (max-width: 768px) {
+    .navbar-brand .brand-text{font-size: 40px; line-height: 44px;}
+    .slider_content{margin: 7% 0 0 50%;}
+    .slider_content h1 {font-size: 20px;}
+    .slider_content p {font-size: 14px;}
+    .prev, .next{display: none;}
+    .slider-container .hd_underline{display: none;}
+    .button{margin-left: 0; margin-top: 5px; height: 35px; font-size: 18px; line-height: 35px; background-position: 10px 5px;}
+    .sc_item {text-align: left; margin-top: 30px; padding: 0 10% 35px; border-bottom: 1px solid #ccc;}
+    .sc_item a img{float:left; margin-right: 25px; height: 135px; width: 135px;}
+    .sc_item h3{padding-top: 35px;}
+    .sc_bt_header{padding-left: 0;}
+    .sc_bt_header h2{text-align: center;}
+    .sc_bt_content img{height: 190px; width: 270px;}
+    .sc_bt_img{text-align: center;}
+    .sc_content{padding: 0 3% 0;}
+    .sc_bottom {margin-bottom: -30px;}
+    footer{padding: 30px 0 30px;}
+    #forma{width: 50%; margin: 5% 25%;}
+}
+
+/* Custom, iPhone Retina */
+@media (min-width: 300px) and (max-width: 481px) {
+    .navbar-brand .brand-text{font-size: 35px; line-height: 44px;}
+    .slider_content {margin: 0 0 0 45%;}
+    .slider_content h1 {font-size: 15px;}
+    .slider_content p {font-size: 10px;}
+    .prev, .next{display: none;}
+    .slider-container .hd_underline{display: none;}
+    .button{margin-left: 0; margin-top: 3%; height: 30px; font-size: 15px; line-height: 30px; background-position: 10px 3px;}
+    .sc_item {text-align: left; margin-top: 0; padding-bottom: 20px; border-bottom: 1px solid #ccc;}
+    .sc_item a img{height: 90px; width: 90px; float: left; margin-right: 15px;}
+    .sc_item h3{padding-top: 0; font-size: 18px;}
+    .sc_item p{font-size: 15px;}
+    .sc_bt_header{padding-left: 0;}
+    .sc_bt_header h2{text-align: center; font-size: 30px;}
+    .sc_bt_content img{height: 190px; width: 270px;}
+    .sc_bt_img{text-align: center;}
+    .sc_content{padding: 0 3% 0;}
+    .sc_bottom {margin-bottom: -30px;}
+    footer{padding: 30px 0 30px;}
+    #forma{width: 100%; margin: 0;}
+}
